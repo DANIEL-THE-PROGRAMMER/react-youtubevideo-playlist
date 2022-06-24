@@ -1,11 +1,13 @@
+
+
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+
 function App() {
   return (
     <div>
-      <div>
-        <h2>Getting Started with React</h2>
-      </div>
-      <div>Test</div>
-      <div>Test 2</div> <div>Test 3</div>
+      <Home count={45} />
+      <Contact contact="123345556" />
     </div>
   );
 }

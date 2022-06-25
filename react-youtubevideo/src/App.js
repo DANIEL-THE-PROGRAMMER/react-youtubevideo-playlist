@@ -1,16 +1,16 @@
+import React from "react";
 
+// components
+import FunctionalComponent from "./components/FunctionalComponent";
+import ClassComponent from "./components/ClassComponent";
 
-import Contact from "./pages/Contact";
-import Home from "./pages/Home";
-
-function App() {
+const App = () => {
   return (
     <div>
-      <Home count={45} />
-      <Contact contact="123345556" />
+      <ClassComponent />
+      <FunctionalComponent />
     </div>
   );
-}
-
+};
 
 export default App;
